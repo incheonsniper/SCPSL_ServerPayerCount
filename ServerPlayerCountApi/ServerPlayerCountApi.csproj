@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="LabApi">
+            <HintPath>$(SCPSL_MANAGED)\LabApi.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(SCPSL_MANAGED)\Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+</Project>
